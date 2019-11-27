@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "projects",
+  "info": {
+    "name": "project",
+    "description": "projects worked on"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Company_Name": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "project_images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
