@@ -10,6 +10,20 @@
       "options": {
         "useNullAsDefault": true
       }
+    },
+    "Mlab": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds233258.mlab.com",
+        "port": 33258,
+        "database": "cns-backend",
+        "username": "psam",
+        "password": "samuel40"
+      },
+      "options": {
+        "ssl": true
+      }
     }
   }
 }
