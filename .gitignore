@@ -94,7 +94,8 @@ logs
 results
 node_modules
 .node_history
-
+yarn.lock
+package-lock.json
 
 ############################
 # Tests
@@ -110,3 +111,4 @@ coverage
 exports
 .cache
 build
+ 
